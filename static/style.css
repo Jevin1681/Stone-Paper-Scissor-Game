@@ -1,0 +1,184 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    background-color: rgb(248, 248, 235);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    box-shadow: 8px 8px 34px black;
+    padding: 20px;
+    margin: 70px auto;
+    width: 45%;
+    align-items: center;
+    gap: 40px;
+    background-color: white;
+}
+
+.container h2{
+    background-color: white;
+    border-bottom: 1px solid gray;
+    padding-bottom: 6px;
+}
+
+form{
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+    background-color: white;
+}
+
+h3{
+    background-color: white;
+}
+
+#rock{
+    padding: 10px 30px;
+    font-size: 17px;
+    font-weight: bold;
+    border: none;
+    color: black;
+    border-radius: 10px;
+    background-color: rgb(62, 184, 255);
+    cursor: pointer;
+}
+
+#rock:hover{
+    background-color: rgb(144, 201, 234);
+    padding: 12px 34px;
+}
+
+#paper{
+    padding: 10px 30px;
+    font-size: 17px;
+    font-weight: bold;
+    border: none;
+    color: black;
+    border-radius: 10px;
+    background-color: rgb(255, 248, 43);
+    cursor: pointer;
+}
+
+#paper:hover{
+    background-color: rgb(240, 237, 153);
+    padding: 12px 34px;
+}
+
+#scissors{
+    padding: 10px 30px;
+    font-size: 17px;
+    font-weight: bold;
+    border: none;
+    color: black;
+    border-radius: 10px;
+    background-color: rgb(225, 6, 97);
+    cursor: pointer;
+}
+
+#scissors:hover{
+    background-color: rgb(255, 60, 141);
+    padding: 12px 34px;
+}
+
+.image-box{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 30px;
+    justify-content: center;
+    background-color: white;
+}
+
+.user img{
+    height: 135px;
+    background-color: white;
+}
+
+.user{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    /* gap: 18px; */
+}
+
+.computer img{
+    height: 170px;
+    background-color: white;
+}
+
+.computer{
+    padding-left: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+}
+
+/* for result page  */
+
+.result-container{
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    box-shadow: 8px 8px 34px black;
+    padding: 20px;
+    margin: 70px auto;
+    width: 45%;
+    align-items: center;
+    gap: 40px;
+    background-color: white;
+}
+
+.won-msg{
+    color: green;
+    font-size: 28px;
+    text-align: center;
+    background-color: white;
+    padding: 0px;
+    font-weight: bold;
+}
+
+.lost-msg{
+    color: red;
+    font-size: 28px;
+    text-align: center;
+    background-color: white;
+    font-weight: bold;
+    padding: 0px;
+}
+
+.draw-msg{
+    color: blue;
+    font-size: 28px;
+    text-align: center;
+    background-color: white;
+    font-weight: bold;
+    padding: 0px;
+}
+
+.play-again{
+    padding: 15px;
+    background-color: green;
+    font-weight: bold;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+    color: white ;
+    cursor: pointer;
+}
+
+.play-again:hover{
+    background-color: rgb(9, 109, 9);
+}
+
+.flash-msg{
+    text-align: center;
+    background-color: white;
+    padding-bottom: 10px;
+}
+
