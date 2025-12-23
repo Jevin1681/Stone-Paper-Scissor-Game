@@ -39,7 +39,6 @@ proto-plus==1.26.1
 protobuf==6.33.0
 pyasn1==0.6.1
 pyasn1_modules==0.4.2
-PyAudio==0.2.14
 pyjokes==0.8.3
 PyJWT==2.10.1
 pyparsing==3.2.5
@@ -59,3 +58,5 @@ urllib3==2.5.0
 virtualenv==20.35.4
 Werkzeug==3.1.4
 yarl==1.22.0
+
+# trigger update
